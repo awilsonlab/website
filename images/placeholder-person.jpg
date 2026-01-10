@@ -1,0 +1,6 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#e5e5e0"/>
+  <circle cx="150" cy="110" r="50" fill="#d4a574"/>
+  <path d="M 75 250 Q 150 180 225 250 L 225 300 L 75 300 Z" fill="#d4a574"/>
+  <text x="150" y="280" font-family="Arial" font-size="14" fill="#1a3a52" text-anchor="middle">Team Member Photo</text>
+</svg>
