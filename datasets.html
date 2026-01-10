@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Datasets | Wilson Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-main">Wilson Lab</span>
+                <span class="logo-sub">Center for Regenerative Medicine</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="datasets.html" class="active">Datasets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Interactive Datasets</h1>
+                <p class="page-subtitle">Explore our single-cell RNA sequencing and metabolomics data</p>
+            </div>
+        </section>
+
+        <section class="datasets">
+            <div class="container">
+                <div class="dataset-item">
+                    <h2>1. Abo, Merritt et al.</h2>
+                    <div class="dataset-links">
+                        <div class="link-item">
+                            <span class="link-label">a)</span>
+                            <a href="files/Abo-Merritt-et-al-methods.docx" class="link-text">Download detailed methods and table including clinical details of tissue donors</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">b)</span>
+                            <a href="https://crem-bu.shinyapps.io/scRNAseq-primarytissue-AATD/" target="_blank" class="link-text">Access interactive shiny web app for single cell RNA sequencing from human AATD lung samples (Figures 1-2)</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">c)</span>
+                            <a href="files/AATD_scRNAseq_R.txt" class="link-text">Download .txt file containing code applied to generate Figures (formatted Seurat object available with GSE227210)</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">d)</span>
+                            <a href="files/CellIdentity_Genes.xlsx" class="link-text">Download file containing gene lists used to assign cell identity (Figure 1B)</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">e)</span>
+                            <span class="link-text">Download files containing Hallmark FGSEA with leading edge genes for 
+                                <a href="files/FGSEA_AATD_AT2s.xlsx">AT2s</a> (Figure 2A) or 
+                                <a href="files/FGSEA_AATD_AMs.xlsx">AMs</a> (Figure 2E)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dataset-item">
+                    <h2>2. Werder et al. <em>The American Journal of Human Genetics.</em> 2023</h2>
+                    <p class="dataset-citation">doi:10.1016/j.ajhg.2023.08.017</p>
+                    <p class="dataset-description">See the effect of ADGRG6 knockdown on gene expression in iPSC-derived AT2s!</p>
+                    <div class="dataset-links">
+                        <div class="link-item">
+                            <a href="https://kleintools.hms.harvard.edu/tools/springViewer_1_6_dev.html?client_datasets/21_03_03_werder/ADGRG6" target="_blank" class="link-text">SPRING viewer</a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://crem-bu.shinyapps.io/WA_WR_0209_4/" target="_blank" class="link-text">Shiny App from Figure 3</a> (scRNAseq of BU3NGST-CRISPRi iAT2s in 3D +/- ADGRG6 knockdown)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dataset-item">
+                    <h2>3. Kaserman et al. <em>Cell Reports.</em> 2022</h2>
+                    <p class="dataset-citation">41, 111775</p>
+                    <div class="dataset-links">
+                        <div class="link-item">
+                            <span class="link-label">a)</span>
+                            <a href="https://crem-bu.shinyapps.io/18_06_22_wilson_analysis_shinyApp/" target="_blank" class="link-text">Interact with bulk RNA sequencing from syngeneic, CRISPR-edited PiZZ6 ZZ vs MZ vs MM iHeps from Figure 2</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">b)</span>
+                            <a href="https://crem-bu.shinyapps.io/Metablomics/" target="_blank" class="link-text">Interact with metabolomics from syngeneic, CRISPR-edited PiZZ6 ZZ vs MZ vs MM iHeps from Figure 3</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">c)</span>
+                            <a href="https://crem-bu.shinyapps.io/19_07_25_Joe/" target="_blank" class="link-text">Interact with scRNAseq data (shiny app of scRNAseq of PiZZ6-ZZ vs PiZZ1-ZZ vs MZ vs MM iHeps) from Figure 5</a>
+                        </div>
+                        <div class="link-item">
+                            <span class="link-label">d)</span>
+                            <a href="https://kleintools.hms.harvard.edu/tools/springViewer_1_6_dev.html?client_datasets/19_07_25_joe/19_07_25_joe" target="_blank" class="link-text">Interact with scRNAseq data (SPRING of scRNAseq of PiZZ6-ZZ vs PiZZ1-ZZ vs MZ vs MM iHeps) from Figure 5</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dataset-item">
+                    <h2>4. Werder et al. <em>Sci Adv.</em> 2022</h2>
+                    <p class="dataset-citation">Jul 15;8(28):eabo6566</p>
+                    <div class="dataset-links">
+                        <div class="link-item">
+                            <a href="https://kleintools.hms.harvard.edu/tools/springViewer_1_6_dev.html?client_datasets/21_03_03_werder/DSP" target="_blank" class="link-text">See the effect of DSP knockdown on gene expression in iPSC-derived AT2s! SPRING from Figure 4</a> (scRNAseq of BU3NGST-CRISPRi iAT2s in 3D +/- DSP knockdown)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dataset-item">
+                    <h2>5. Abo et al. <em>JCI Insight.</em> 2022</h2>
+                    <p class="dataset-citation">Mar 22;7(6):e155589</p>
+                    <div class="dataset-links">
+                        <div class="link-item">
+                            <a href="https://kleintools.hms.harvard.edu/tools/springViewer_1_6_dev.html?client_datasets/19_12_06_kristy/19_12_06_kristy" target="_blank" class="link-text">See the effect of ALI culture or cigarette smoke exposure on your favorite gene in iPSC-derived AT2s! SPRING from Figure 4</a> (scRNA-seq of SPC2 iAT2s in 3D, 2D, ALI, and smoke-exposed ALI cultures)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wilson Lab, Boston University. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
